@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  int sayi1,sayi2;
+  printf("1. sayiyi girin:\t");
+  scanf("%d",&sayi1);
+  printf("2. sayiyi girin:\t");
+  scanf("%d",&sayi2);
+
+  if(sayi1>sayi2){
+        printf("%d %d'den buyuk.\n",sayi1,sayi2);
+
+  }
+  if (sayi1<sayi2){
+      printf("%d %d'den kucuk.\n",sayi1,sayi2);
+  }
+
+}
