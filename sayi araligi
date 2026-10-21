@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a;
+
+    printf("sayi girin=\n");
+    scanf("%d",&a);
+    switch(a){
+    case 1 ... 6:
+        printf("burada!\n");
+        break;
+    case 7:
+        printf("yok\n");
+        break;
+    default:
+        printf("varsayilan\n");
+
+    }
+    return 0;
+}
