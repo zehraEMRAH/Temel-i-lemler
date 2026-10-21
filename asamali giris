@@ -2,22 +2,24 @@
 #include <stdlib.h>
 
 int main()
-{
+{   int kullaniciNumarasi=1234567890;
+    int sifre=1234;
     int x;
+    int y;
+     printf("kullanici numarasi girin=\n");
+     scanf("%d",&x);
+        if(x==1234567890){
+          printf("sifre girin=\n");
+          scanf("%d",&y);
+          if(y==1234){
+            printf("Giris basarili\nHos geldiniz.1234567890");
+          }else{
+            printf("sifre uyusmamaktadir.\n");
+          }
+        }else{
+            printf("Kullanici ID uyusmamaktadir.\n");
+           }
 
-    printf(" Tam sayi girin=\n");
-    scanf ("%d",&x);
 
-    if(x<0 && x%2==0){
-        printf("%d sayisi negatif cift sayidir.\n",x);
-    }else if(x<0 && x%2!=0){
-        printf("%d sayisi negatif tek sayidir.\n",x);
-    }else if(x>0 && x%2==0){
-        printf("%d sayisi pozitif cift sayidir.\n",x);
-    }else if(x>0 && x%2!=0){
-        printf("%d sayisi pozitif tek sayidir.\n",x);
-    }else{// 0 girilmesi durumu.
-        printf("%d sayisi cift sayidir.\n",x);
-    }
     return 0;
 }
