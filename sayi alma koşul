@@ -13,7 +13,7 @@ int main()
         printf("%d %d'den buyuk.\n",sayi1,sayi2);
 
   }
-  if (sayi1<sayi2){
+ else{
       printf("%d %d'den kucuk.\n",sayi1,sayi2);
   }
 
