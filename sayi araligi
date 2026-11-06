@@ -8,11 +8,11 @@ int main()
     printf("sayi girin=\n");
     scanf("%d",&a);
     switch(a){
-    case 1 ... 6:
-        printf("burada!\n");
+    case 1 ... 19:
+        printf("merhaba!\n");
         break;
-    case 7:
-        printf("yok\n");
+    case 20:
+        printf("selam!\n");
         break;
     default:
         printf("varsayilan\n");
