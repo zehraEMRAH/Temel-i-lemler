@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main()
-{   //(x+y)^2-(x^2+y^2)=?
+{  
     int x,y,ilkDenklem,ikinciDenklem,result;
 
     printf("ilk_sayiyi_girin=\n");
@@ -10,9 +10,6 @@ int main()
 
     printf("ikinci_sayiyi_girin=\n");
     scanf("%d",&y);
-
-    ilkDenklem=(x+y)*(x-y);
-    ikinciDenklem=(x*x)+(y*y);
 
     //result=ilk denklem-ikinci denklem;
 
