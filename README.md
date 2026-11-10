@@ -1,2 +1,2 @@
 # Temel-islemler
-temel kadlar
+temel kodlar
